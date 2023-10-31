@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Esfiharia </title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="shortcut icon" href="/fotos/logo.jpg" type="image/x-icon">
+    <script src="/scripts/carrinho.js" async></script>
+</head>
+<body>
+    <header>
+        <img src="/fotos/logo.jpg" alt="" id="logo">
+        <div class="container_canto">
+        <div id="botões_a_direita">
+          <div class="container">
+            <button class="menu-button" onclick="toggleColumn()">
+              <img src="/fotos/carrinho-carrinho.png" alt="" class="img_carrinho">
+            </button>
+            <div class="column" id="column">
+              <button class="close-button" onclick="toggleColumn()">✕</button>
+              <!-- Aqui você pode inserir seus campos de entrada de dados -->
+              <section class="container normal-section">
+                <h2 class="section-title">Carrinho</h2>
+
+                <hr class="hr_carrinho">
+        
+                <table class="cart-table">
+                  <thead>
+                    <tr>
+                      <th class="table-head-item first-col">Item</th>
+                      <th class="table-head-item second-col">Preço</th>
+                      <th class="table-head-item third-col">Quantidade</th>
+                    </tr>
+                  </thead>
+    
+                  <tbody>
+                    
+                  </tbody>
+        
+                  <tfoot>
+                    <tr>
+                      <td colspan="3" class="cart-total-container">
+                        <strong>Total</strong>
+                        <span>R$0,00</span>
+                      </td>
+                    </tr>
+                  </tfoot>
+                </table>
+                
+                <button type="button" class="purchase-button">Finalizar Compra</button>
+              </section>
+            </div>
+          </div>
+        </div>
+        </div>
+    </header>
+
+    <main class="main-section">
+      <h2 class="section-title">Esfihas</h2>
+      <section class="container_esfiha">
+        
+<!--FILEIRA 1 DE ESFIHAS-->
+
+        <div class="products-container1">
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/calabresa.jpg" alt="Poster 1" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Calabresa</h3>
+              <span id="preco_produto1" class="product-price" data-product="calabresa">R$5,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/atum.jpg" alt="Poster 2" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Atum</h3>
+              <span id="preco_produto2" class="product-price" data-product="atum">R$5,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+  
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/aliche.jpg" alt="Poster 3" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Aliche</h3>
+              <span id="preco_produto3" class="product-price" data-product="aliche">R$7,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+        </div>
+
+  <!--FILEIRA 2 DE ESFIHAS-->
+
+          <div class="products-container2">
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/escarola.jpg" alt="Poster 4" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Escarola</h3>
+              <span id="preco_produto4" class="product-price" data-product="escarola">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/frango.jpg" alt="Camiseta" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Frango</h3>
+              <span id="preco_produto5" class="product-price" data-product="frango">R$5,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/esfihas/quatro queijo.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Quatro Queijos</h3>
+              <span id="preco_produto6" class="product-price" data-product="quatro queijo">R$7,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+        </div>
+  <!--FILEIRA 3 DE ESFIHA-->
+  <div class="products-container3">
+
+    <div class="movie-product">
+      <!-- <br> -->
+      <img src="/fotos/esfihas/carne.jpg" alt="Poster 4" class="product-image">
+      <div class="product-price-container">
+        <h3 class="product-title">Carne</h3>
+        <span id="preco_produto7" class="product-price" data-product="carne">R$5,00</span>
+        <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+      </div>
+    </div>
+
+    <div class="movie-product">
+      <!-- <br> -->
+      <img src="/fotos/esfihas/carne com coalhada.jpg" alt="Camiseta" class="product-image">
+      <div class="product-price-container">
+        <h3 class="product-title">Carne c/ Coalhada</h3>
+        <span id="preco_produto8" class="product-price" data-product="carne com coalhada">R$6,00</span>
+        <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+      </div>
+    </div>
+
+    <div class="movie-product">
+      <!-- <br> -->
+      <img src="/fotos/esfihas/milho.jpg" alt="Miniatura" class="product-image">
+      <div class="product-price-container">
+        <h3 class="product-title">Milho</h3>
+        <span id="preco_produto9" class="product-price" data-product="milho">R$5,00</span>
+        <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!--SEÇÃO DE BEBIDAS-->
+      
+      <h2 class="section-title">Bebidas</h2>
+      <section class="container_bebidas">
+        
+
+  <!--FILEIRA 1 DE BEBIDAS-->
+
+        <div class="products-container1_2">
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/suco de laranja.png" alt="Camiseta" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Suco de Laranja</h3>
+              <span id="preco_produto10" class="product-price" data-product="suco de laranja">R$8,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/suco de frutas vermelhas.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Suco c/ Leite</h3>
+              <span id="preco_produto11" class="product-price" data-product="suco de frutas vermelhas">R$9,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/Suco de abacaxi com hortelâ.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Abacaxi c/ hortelâ</h3>
+              <span id="preco_produto12" class="product-price" data-product="Suco de abacaxi com hortelâ">R$9,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+        </div>
+
+  <!--FILEIRA 2 DE BEBIDAS-->
+
+          <div class="products-container2_2">
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/Coca cola lata.jpg" alt="Camiseta" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Coca Cola - Lata </h3>
+              <span id="preco_produto13" class="product-price" data-product="Coca cola lata">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/guarana lata.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Guaraná - Lata</h3>
+              <span id="preco_produto14" class="product-price" data-product="guarana lata">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/água.png" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Água</h3>
+              <span id="preco_produto15" class="product-price" data-product="água">R$4,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+        </div>
+
+  <!--FILEIRA 3 DE BEBIDAS-->
+              
+            <div class="products-container3_2">
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/Schweppes Citrus.jpg" alt="Camiseta" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Schweppes Citrus </h3>
+              <span id="preco_produto16" class="product-price" data-product="Schweppes Citrus">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/fanta laranja lata.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Fanta Laranja - Lata</h3>
+              <span id="preco_produto17" class="product-price" data-product="fanta laranja lata">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+          <div class="movie-product">
+            <!-- <br> -->
+            <img src="/fotos/bebidas/fanta uva lata.jpg" alt="Miniatura" class="product-image">
+            <div class="product-price-container">
+              <h3 class="product-title">Fanta Uva - Lata</h3>
+              <span id="preco_produto18" class="product-price" data-product="fanta uva lata">R$6,00</span>
+              <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+            </div>
+          </div>
+
+        </div>    
+    <!-- Script para atualizar os valores dos produtos após a edição no gestor -->
+    <script>
+        function atualizarValores() {
+            document.getElementById("preco_produto1").textContent = localStorage.getItem("preco_produto1") || "R$5.00";
+            document.getElementById("preco_produto2").textContent = localStorage.getItem("preco_produto2") || "R$5.00";
+            document.getElementById("preco_produto3").textContent = localStorage.getItem("preco_produto3") || "R$7.00";
+            document.getElementById("preco_produto4").textContent = localStorage.getItem("preco_produto4") || "R$6.00";
+            document.getElementById("preco_produto5").textContent = localStorage.getItem("preco_produto5") || "R$5.00";
+            document.getElementById("preco_produto6").textContent = localStorage.getItem("preco_produto6") || "R$7.00";
+            document.getElementById("preco_produto7").textContent = localStorage.getItem("preco_produto7") || "R$5.00";
+            document.getElementById("preco_produto8").textContent = localStorage.getItem("preco_produto8") || "R$6.00";
+            document.getElementById("preco_produto9").textContent = localStorage.getItem("preco_produto9") || "R$5.00";
+            document.getElementById("preco_produto10").textContent = localStorage.getItem("preco_produto10") || "R$8.00";
+            document.getElementById("preco_produto11").textContent = localStorage.getItem("preco_produto11") || "R$9.00";
+            document.getElementById("preco_produto12").textContent = localStorage.getItem("preco_produto12") || "R$9.00";
+            document.getElementById("preco_produto13").textContent = localStorage.getItem("preco_produto13") || "R$6.00";
+            document.getElementById("preco_produto14").textContent = localStorage.getItem("preco_produto14") || "R$6.00";
+            document.getElementById("preco_produto15").textContent = localStorage.getItem("preco_produto15") || "R$54.00";
+            document.getElementById("preco_produto16").textContent = localStorage.getItem("preco_produto16") || "R$6.00";
+            document.getElementById("preco_produto17").textContent = localStorage.getItem("preco_produto17") || "R$6.00";
+            document.getElementById("preco_produto18").textContent = localStorage.getItem("preco_produto18") || "R$6.00";
+          }
+
+        // Atualize os valores dos produtos ao carregar a página
+        atualizarValores();
+    </script>
+
+        </main>
+
+    </main>
+
+    <footer>
+
+        <h1 id="footer">Nossa localização</h1>
+
+        <div id="linha"><hr></div>
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=esfiha&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/"></a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:1075px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+        <br>
+        <div class="final">
+          <h2 class="info">Informações da empresa</h2>
+          <p><Strong>CNPJ:</Strong> 32.759.022/0001-26<strong><br> Telefone:</strong> (11) 2514-5877</p> <br>
+        </div>
+        
+    </footer>
+
+</body>
+</html>

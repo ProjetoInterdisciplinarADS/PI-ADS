@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(250, 250, 250);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+header{
+    background-color: #de272a;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    height: 120px;
+    padding-right: 35px;
+    border-bottom: 10px solid rgb(49, 85, 49);
+}
+
+.img_header{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#logo{
+    height: 120px;
+}
+
+.titulo{
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+
+.containerCarrinho{
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    padding: 0px 60px 0px 60px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+    width: 520px;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.procurar{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #f0f0f0;
+    color: #de272a;
+    border: 1px solid;
+    padding: 25px;
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:#de272a;
+    color: #f0f0f0;
+    transition: 0.3s;
+}
+
+a{
+    color: #de272a;
+}
+
+
+#botao {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+.dadosCadastro {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 15pt;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: rgb(49, 85, 49);
+}
+
+#footer{
+    color: white;
+    font-weight: 100;
+    border-top: 10px solid #de272a;
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 36px;
+    padding-top: 30px;
+}
+
+hr{
+    margin-top: 35px;
+}
+
+.mapouter{
+    padding-left: 10%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+}
+
+#linha{
+    width: 1200px;
+    padding-left: 350px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: #f1f1f1;
+}
+
+.info{
+    margin-top: 0px;
+    color: #f1f1f1;
+    margin-bottom: 23px;
+    font-size: 23px;
+}

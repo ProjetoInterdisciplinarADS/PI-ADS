@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esfiharia</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="shortcut icon" href="/fotos/logo.jpg" type="image/x-icon">
+    <script src="/scripts/fila.js" async></script>
+</head>
+<body>
+
+    
+    <header>
+        <img src="/fotos/logo.jpg" alt="" id="logo">
+    </header>
+
+    <main>
+        <div class="caixa_encima">
+        <section class="conteudo_da_caixa">
+            <h2 class="letra">Login Gestor</h2>
+            <h4 class="letra">login especial para o gestor do site</h4><br>
+
+            <form id="cadastroForm">
+            
+            <label for="email_e_senha" class="email_senha">
+                <input type="email" placeholder="Digite seu usuario" name="uname" id="email" required class="email">
+                <input type="password" placeholder="Digite a senha de administrador" id="senha_adm" name="uname" required class="senha">
+            </label>
+
+
+        </form>
+        
+
+        <section class="links__de__conta">
+            <button type="submit" class="login" id="loginButton"><a href="gestor">Logar</a></button>
+            <button type="button" class="login"><a href="cadastro"> Voltar </a></button>
+        </section>
+      
+        
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+    <footer>
+
+        <h1 id="footer">Nossa localização</h1>
+
+        <div id="linha"><hr></div>
+
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=esfiha&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://capcuttemplate.org/"></a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:1075px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+        <br>
+        <div class="final">
+          <h3 class="info">Informações da empresa</h3>
+          <p><Strong>CNPJ:</Strong> 32.759.022/0001-26<strong><br> Telefone:</strong> (11) 2514-5877</p> <br>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Referência aos campos de email e senha
+            const emailInput = document.getElementById("email");
+            const senhaInput = document.getElementById("senha_adm");
+            const loginButton = document.getElementById("loginButton");
+        
+            // Evento de clique no botão de login
+            loginButton.addEventListener("click", function(event) {
+                // Verifica se as credenciais correspondem
+                if (emailInput.value === "admin" && senhaInput.value === "1234") {
+                    // Redireciona para a página "gestor"
+                    window.location.href = "gestor";
+                } else {
+                    // Exibe uma mensagem de erro (você pode personalizar isso conforme necessário)
+                    alert("Credenciais inválidas. Por favor, verifique seu usuario e senha.");
+                    event.preventDefault(); // Impede o envio do formulário
+                }
+            });
+        });
+        </script>
+        
+</body>
+
+</html>

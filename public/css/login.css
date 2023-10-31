@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(250, 250, 250);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    transition: 1.5s;
+}
+
+.caixa_encima{
+
+    padding-left: 50px;
+    background-color: rgb(250, 250, 250);;
+    min-width: 651px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.conteudo_da_caixa{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.links{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+    font-size: 35pt;
+}
+
+h4{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+label{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 15pt;
+    
+}
+
+input{
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 8px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 12pt;
+    transition: 1.5s;
+}
+
+.cancelar{
+    padding: 20px 60px 22px 60px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 8px;
+    border: none;
+    margin-top: 40px;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 15pt;
+    font-weight: 600;
+
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+
+a{
+    padding-top: 5px;
+    text-decoration: none;
+    color:  black;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    padding-top: 20px;
+    
+}
+
+.cancelar:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+.login{
+    background-color: rgb(35, 209, 49);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    font-weight: 600;
+    margin-top: 40px;
+    box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    padding: 20px 60px 20px 60px;
+}
+
+.login:hover{
+    background-color: rgb(27, 155, 38);
+}
+
+.login, a{
+    color: white;
+}
+
+.links__de__conta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+    gap: 70px;
+}
+
+hr{
+    border-color: rgb(255, 255, 255);
+}
+
+.inserir_nome{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.email_senha{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email{
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.senha{
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-bottom: 15px;
+}
+
+.genero{
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 8px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 12pt;
+    transition: 1.5s;
+    color: rgb(126, 126, 126);
+    margin-left: 73px;
+    padding-right: 35px;
+}
+
+.genero_data{
+    display: flex;
+    gap: 30px;
+}
+
+.pagamento{
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 12pt;
+    transition: 1.5s;
+    color: rgb(126, 126, 126);
+    padding-right: 35px;
+}
+.nascimento{
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 8px;
+    height: 45px;
+    font-size: 12pt;
+    transition: 1.5s;
+    color: rgb(126, 126, 126);
+    padding-right: 30px;
+
+}
+
+input.nascimento{
+    padding-left: 50px;
+}
+
+header{
+    background-color: #de272a;
+    display: flex;
+    justify-content: center;
+}
+
+header, img{
+    height: 120px;
+    padding-right: 25px;
+    border-bottom: 10px solid rgb(49, 85, 49);
+}
+
+.letra{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(49, 85, 49);
+}
+
+#footer{
+    color: white;
+    font-weight: 100;
+    border-top: 10px solid #de272a;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+hr{
+    margin-top: 35px;
+}
+
+.mapouter{
+    padding-left: 9%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+}
+
+#linha{
+    width: 1200px;
+    padding-left: 350px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: #f1f1f1;
+}
+
+.info{
+    margin-top: 0px;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

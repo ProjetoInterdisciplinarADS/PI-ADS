@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(250, 250, 250);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+header{
+    background-color: #de272a;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    height: 120px;
+    padding-right: 25px;
+    border-bottom: 10px solid rgb(49, 85, 49);
+}
+
+.img_header{
+    width: 38px;
+    height: 38px;
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+#logo{
+    padding-left: 725px;
+}
+
+#botões_a_direita{
+    padding-top: 40px;
+    padding-left: 520px;
+}
+
+footer{
+    background-color: rgb(49, 85, 49);
+}
+
+#footer{
+    color: white;
+    font-weight: 100;
+    border-top: 10px solid #de272a;
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 36px;
+}
+
+hr{
+    margin-top: 35px;
+}
+
+.mapouter{
+    padding-left: 11%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+}
+
+#linha{
+    width: 1200px;
+    padding-left: 350px;
+}
+/*PARTES IMPORTANTES DA PAGINA*/
+
+
+
+
+#fileira1esfiha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira2esfiha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira3esfiha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira4esfiha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira5esfiha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#area_das_esfihas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    width: auto;
+}
+
+.esfiha{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_esfiha{
+    height: 155px;
+    width: 134px;
+    border-radius: 4px 0 0 4px;
+}
+
+#titulo_esfiha{
+    padding-top: 50px;
+}
+
+/*CONTEUDO DAS ESFIHAS*/
+
+#area_das_bebidas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    width: auto;
+}
+
+#fileira1bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira2bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira3bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira4bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira5bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira6bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fileira7bebida{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bebida{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_bebida{
+    height: 173PX;
+    width: 173PX;
+    border-radius: 8px 0 0 8px;
+}
+
+#titulo_bebida{
+    padding-bottom: 100px;
+}
+
+/*CONTEUDO DAS BEBIDAS*/
+
+figcaption{
+    background-color: rgb(250, 250, 250);
+    height: 155px;
+    width: 305px;
+    border-radius: 0 8px 8px 0;
+    border:1px solid rgb(230, 230, 230);
+}
+
+.msg_bebida{
+    background-color: rgb(250, 250, 250);
+    height: 173px;
+    width: 302px;
+    border-radius: 0 8px 8px 0;
+    border:1px solid rgb(230, 230, 230);
+}
+
+h1{
+    color: #414141;
+    font-weight: 100;
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    color: #A79EA1;
+    font-size: .85rem;
+    line-height: 1rem;
+    font-weight: lighter;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    padding-top: 0px;
+    color: #f1f1f1;
+}
+h3{
+    color: #414141;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 5;
+}
+/*PARTE DO BOTÃO DO CARRINHO*/
+.valor{
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+button{
+    background-color: rgb(245, 245, 245);
+    color: #de272a;
+    border: 1px solid ;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40px;
+    position: static;
+}
+
+button:hover{
+    background-color: #de272a;
+    color: rgb(245, 245, 245);
+    border: 1px solid ;
+    transition: 0.3s;
+}
+
+@keyframes animacaoBotao {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .botaoAnimado {
+    animation-name: animacaoBotao;
+    animation-duration: 0.5s;
+  }
+
+  /*CARRINHO NO HTML*/
+
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-head-item {
+    text-align: start;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 6px;
+    text-transform: uppercase;
+  }
+  
+  .second-col,
+  .third-col {
+    width: 26%;
+  }
+
+  .cart-total-container {
+    border-top: 1px solid var(--gray);
+    text-align: end;
+    padding: 6px 16px 0 0;
+    font-size: 18px;
+  }
+  
+  .cart-total-container strong {
+    margin-right: 12px;
+  }
+  
+  .purchase-button {
+    display: flex;
+    margin: 24px auto 0;
+    background: var(--blue);
+    color: var(--white);
+    border: 0;
+    border-radius: 6px;
+    padding: 16px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  
+    transition: filter 0.2s;
+  }
+  
+
+.product-image{
+    width: 150px;
+    height: 155px;
+    border-radius: 6px 0px 0px 6px;
+    
+}
+
+
+/*PARTE DOS CONTAINER DE ESFIHAS*/
+.products-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+.products-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+.products-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+}
+/*-------------------------------------------*/
+
+/*PARTE DOS CONTAINER DE BEBIDAS*/
+.products-container1_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+.products-container2_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+    padding-bottom: 50px;
+}
+
+.products-container3_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 65px;
+}
+/*-------------------------------------------*/
+
+
+/*AQUI FICA O CODIGO DA MAIN*/
+.main-section{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 17.7%;
+}
+
+h2{
+    text-align: center;
+    font-weight: 100;
+    margin: 35px 0px 35px 0px;
+    margin: 40px 0px 50px 0px;
+}
+/*--------------------------------------*/
+.movie-product{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(250, 250, 250);
+    height: 155px;
+    width: 355px;
+    border-radius: 7px;
+    border:1px solid rgb(230, 230, 230);
+}
+
+span{
+    padding-left: 10px;
+}
+
+
+.menu-button{
+    width: 38px;
+    height: 38px;
+    background-color: #de272a;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.menu-button:hover{
+    border: #de272a;
+}
+
+.img_carrinho{
+    width: 38px;
+    height: 38px;
+    margin-right: 60px;
+}
+
+.column {
+    position: absolute;
+    top: 0;
+    right: -480px;
+    width: 480px;
+    height: auto;
+    background-color: #f1f1f1;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+.column.show {
+    right: 0;
+}
+
+.close-button{
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.cart-product-image{
+    width: 100px;
+    height: 100px;
+}
+
+.container.normal-section{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border:1px solid rgb(230, 230, 230);
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.purchase-button{
+    border: 1px solid #de272a;
+    color: #de272a;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.remove-product-button{
+    background-color: white;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.product-identification{
+    padding-bottom: 15px;
+    display: flex;
+
+}
+
+.product-qtd-input{
+    border-radius: 3px ;
+    border: 1px solid rgb(197, 197, 197);
+    width: 20px;
+    height: 20px;
+    padding: 7px 4px 7px 17px;
+    margin-left: 25px;
+}
+
+.cart-product-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding: 40px 5px 0px 10px;
+}
+
+.hr_carrinho{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.section-title{
+    margin-bottom: 30px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.info{
+    margin-top: 0px;
+    color: #f1f1f1;
+    margin-bottom: 30px;
+}
+
+
+
+

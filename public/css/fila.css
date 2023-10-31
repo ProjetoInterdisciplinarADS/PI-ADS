@@ -1,0 +1,227 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+header{
+    background-color: #de272a;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    height: 130px;
+    padding-right: 25px;
+    border-bottom: 10px solid rgb(49, 85, 49);
+}
+
+.img_header{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+#botões_a_direita{
+    padding-top: 40px;
+    padding-left: 520px;
+}
+
+#logo{
+    width: 120.069px;
+    height: 120px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+/*Área de pedidos*/
+
+.containerCarrinho{
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    padding: 0px 60px 0px 60px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #de272a;
+    color: #de272a;
+    border: 1px solid;
+    padding: 25px 152px 42px 110px;
+    margin: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+
+#botao{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    transition: 0.3s;
+}
+
+/*Itens do carrinho */
+
+#carrinhoCart ul{
+    display: flex;
+}
+#carrinhoCart li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+#carrinhoCart li img{
+    max-width: 100px;
+}
+
+#res {
+    margin: 2rem;
+}
+
+.container {
+    height: 25px;
+    background-color: #CCC;
+    position: relative;
+}
+
+.container .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0fd439;
+   animation: progress-animation 300s infinite;
+}
+
+
+@keyframes progress-animation{
+    0% { width: 0%; } 
+    100% { width: 100%}
+}
+
+form{
+    margin-top: 80px;
+}
+
+#dataPedido{
+    margin-top: 220px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.procurar{
+    color: #de272a;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(49, 85, 49);
+    height: 730px;
+}
+
+#footer{
+    color: white;
+    font-weight: 100;
+    border-top: 10px solid #de272a;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+hr{
+    margin-top: 35px;
+}
+
+.mapouter{
+    padding-left: 9%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 80px;
+}
+
+#linha{
+    width: 1500px;
+    padding-left: 350px;
+}
+
+a{
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #f0f0f0;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    color: #f1f1f1;
+}
+
+.info{
+    margin-top: 70px;
+    color: #f1f1f1;
+    margin-bottom: 30px;
+}
+
+.info2{
+    color: #f1f1f1;
+}
+
+strong{
+    color: #f1f1f1;
+}
